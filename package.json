@@ -1,14 +1,14 @@
 {
   "name": "offline-token-gen",
   "version": "1.0.0",
-  "description": "parte comum a todos os microservices do REF",
+  "description": "Offline Token Generator",
   "main": "index.js",
   "scripts": {
     "install": "tsc",
     "test": "tsc && mocha"
   },
   "author": "pedro",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "dependencies": {
     "@types/aes-js": "^3.1.0",
     "@types/chai": "^3.5.0",
