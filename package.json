@@ -7,7 +7,7 @@
     "install": "tsc",
     "test": "tsc && mocha"
   },
-  "author": "pedro",
+  "author": "pedro-arruda-moreira",
   "license": "MIT",
   "dependencies": {
     "@types/aes-js": "^3.1.0",
