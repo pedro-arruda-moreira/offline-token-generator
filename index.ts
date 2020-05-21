@@ -18,6 +18,12 @@ export class OfflineTokenGenerator<T = string> {
             }
         }
     ) {
+        if(tolerance < 0) {
+            throw new Error("tolerance must be >= 0");
+        }
+        if(ttl < 1) {
+            throw new Error("ttl must be >= 1");
+        }
         if(aesBits != 128
         && aesBits != 192
         && aesBits != 256) {

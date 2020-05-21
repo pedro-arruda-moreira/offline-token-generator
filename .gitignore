@@ -3,3 +3,4 @@
 *.d.ts
 *.map
 /package-lock.json
+*.tgz
