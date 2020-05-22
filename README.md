@@ -7,7 +7,8 @@ Just instantiate the **OfflineTokenGenerator** class and use the method **genera
 // TTL Tolerance (optional, default 0) -------------V
 // TTL in seconds (optional, default 5) ---------V  |
 //      Generated AES hash will change           |  |
-//      Every [TTL] seconds for                  |  |
+//      on each generation (randomized) and      |  |
+//      also Every [TTL] seconds for             |  |
 //      the same content being hashed.           |  |
 // AES Bits (128 / 192 / 256) ---------------V   |  |
 // AES password -----------------------V     |   |  |

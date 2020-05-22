@@ -1,11 +1,10 @@
 {
   "name": "offline-token-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Offline Token Generator",
   "main": "index.js",
   "scripts": {
     "prepublish": "tsc && mocha",
-    "install": "tsc",
     "test": "tsc && mocha"
   },
   "bugs": {
