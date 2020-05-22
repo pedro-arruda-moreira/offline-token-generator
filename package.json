@@ -4,6 +4,7 @@
   "description": "Offline Token Generator",
   "main": "index.js",
   "scripts": {
+    "prepublish": "tsc && mocha",
     "install": "tsc",
     "test": "tsc && mocha"
   },
@@ -28,6 +29,15 @@
     "index.js.map",
     "LICENSE",
     "README.md"
+  ],
+  "keywords": [
+    "token",
+    "security",
+    "hash",
+    "crypto",
+    "offline",
+    "off-line",
+    "timestamp"
   ],
   "devDependencies": {
     "@types/aes-js": "^3.1.0",
